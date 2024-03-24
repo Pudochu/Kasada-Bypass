@@ -11,7 +11,7 @@ const puppeteer = require('puppeteer');
         '--disable-blink-features=AutomationControlled'
     ],
     defaultViewport: null,
-	  timeout: 10000, // 10 seconds
+    timeout: 10000, // 10 seconds
     protocolTimeout: 20000, // 20 seconds
     executablePath: "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", // If necessary, download Chrome to your computer. In some cases, this method works very well.
   });
